@@ -1,0 +1,21 @@
+
+Call:
+lm(formula = Emp_Satisfac ~ Transfo_Lead + Orga_Climate, data = prepared$data, 
+    na.action = na.fail)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.40061 -0.33316 -0.01006  0.31841  1.55108 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   0.80362    0.12848   6.255 1.84e-09 ***
+Transfo_Lead  0.50912    0.03073  16.569  < 2e-16 ***
+Orga_Climate  0.29856    0.03131   9.537  < 2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.5288 on 237 degrees of freedom
+Multiple R-squared:  0.6222,	Adjusted R-squared:  0.619 
+F-statistic: 195.1 on 2 and 237 DF,  p-value: < 2.2e-16
+

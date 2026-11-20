@@ -1,0 +1,5 @@
+"diagnostic","status","detail","statistic","p_value"
+"shapiro_wilk","executed","Residual normality test; nonsignificance does not prove normality",0.990093105462773,0.184361489618325
+"breusch_pagan","skipped_missing_package","Optional package lmtest not installed",NA,NA
+"durbin_watson","skipped_unordered_rows","No meaningful row order declared; DW would depend on arbitrary CSV order",NA,NA
+"vif","skipped_missing_package","Optional package car not installed",NA,NA

@@ -1,0 +1,11 @@
+Package: regressiondiagnosticsportfolio
+Type: Project
+Title: Exploratory Regression Diagnostics Coursework
+Version: 0.1.0
+Authors@R: person("Ginno", "Arostique", role = "aut")
+Description: Two parameterized multiple regression workflows with assumption
+    diagnostics and explicit synthetic software verification fixtures.
+Depends: R (>= 4.2)
+Suggests: lmtest, car
+License: MIT + file LICENSE
+Encoding: UTF-8

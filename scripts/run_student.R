@@ -1,0 +1,7 @@
+# Convenience entry point; forwards explicit file/output arguments.
+args <- commandArgs(trailingOnly = TRUE)
+if (length(args) < 2) stop("Usage: Rscript scripts/run_student.R INPUT.csv NEW_OUTPUT_DIR [--ordered]")
+script_arg <- grep("^--file=", commandArgs(), value = TRUE)
+root <- dirname(dirname(normalizePath(sub("^--file=", "", script_arg[[1]]))))
+source(file.path(root, "R", "diagnostics.R"))
+run_study(read.csv(args[[1]], fileEncoding = "UTF-8-BOM", check.names = TRUE), "student", args[[2]], "--ordered" %in% args)

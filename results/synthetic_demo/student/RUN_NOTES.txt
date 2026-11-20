@@ -1,0 +1,11 @@
+Study: student
+Evidence label: SYNTHETIC SOFTWARE DEMONSTRATION; not original research findings
+Input rows: 200
+Complete rows: 200
+Dropped missing rows: 0
+Meaningful order declared: FALSE
+Full formula: Student_Performance ~ Study_Hours + Attendance_Rate + Extracurricular_Activities + 
+Full formula:     Learning_Resources + Teacher_Support
+Selected formula: Student_Performance ~ Study_Hours + Attendance_Rate + Teacher_Support
+Selection and inference use the same data; post-selection p-values/CIs are exploratory.
+No causal or held-out predictive performance claim is made.

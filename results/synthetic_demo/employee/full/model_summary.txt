@@ -1,0 +1,46 @@
+
+Call:
+lm(formula = formula, data = prepared$data, na.action = na.fail)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.31420 -0.32225 -0.04406  0.27412  1.44729 
+
+Coefficients:
+                                              Estimate Std. Error t value
+(Intercept)                                    0.86120    0.18776   4.587
+SexMale                                       -0.06669    0.07053  -0.946
+Age31-40                                      -0.11944    0.10027  -1.191
+Age41-50                                      -0.10804    0.09918  -1.089
+Age51 and above                                0.02263    0.09977   0.227
+Length.of.Service1-3 years                    -0.15972    0.09818  -1.627
+Length.of.Service4-6 years                    -0.07490    0.10030  -0.747
+Length.of.ServiceMore than 6 years            -0.06328    0.09904  -0.639
+SkillIntermediate                              0.05029    0.08549   0.588
+SkillAdvanced                                  0.06601    0.08538   0.773
+Educational.AttainmentPost-graduate Masters    0.13676    0.08571   1.596
+Educational.AttainmentPost-graduate Doctorate  0.05176    0.08471   0.611
+Transfo_Lead                                   0.50924    0.03122  16.314
+Orga_Climate                                   0.29839    0.03312   9.010
+                                              Pr(>|t|)    
+(Intercept)                                   7.46e-06 ***
+SexMale                                          0.345    
+Age31-40                                         0.235    
+Age41-50                                         0.277    
+Age51 and above                                  0.821    
+Length.of.Service1-3 years                       0.105    
+Length.of.Service4-6 years                       0.456    
+Length.of.ServiceMore than 6 years               0.524    
+SkillIntermediate                                0.557    
+SkillAdvanced                                    0.440    
+Educational.AttainmentPost-graduate Masters      0.112    
+Educational.AttainmentPost-graduate Doctorate    0.542    
+Transfo_Lead                                   < 2e-16 ***
+Orga_Climate                                   < 2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.5299 on 226 degrees of freedom
+Multiple R-squared:  0.6383,	Adjusted R-squared:  0.6174 
+F-statistic: 30.67 on 13 and 226 DF,  p-value: < 2.2e-16
+

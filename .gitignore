@@ -1,0 +1,12 @@
+.Rhistory
+.RData
+.Rproj.user/
+.Renviron
+.env*
+data/*
+!data/README.md
+results/runs/
+renv/library/
+renv/staging/
+*.csv
+!results/synthetic_demo/**

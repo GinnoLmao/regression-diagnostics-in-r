@@ -1,0 +1,22 @@
+
+Call:
+lm(formula = Student_Performance ~ Study_Hours + Attendance_Rate + 
+    Teacher_Support, data = prepared$data, na.action = na.fail)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-10.3806  -2.2980   0.1922   2.2699  11.1084 
+
+Coefficients:
+                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     20.28641    1.87191  10.837  < 2e-16 ***
+Study_Hours      2.07784    0.11383  18.253  < 2e-16 ***
+Attendance_Rate  0.29268    0.02138  13.691  < 2e-16 ***
+Teacher_Support  1.02973    0.25826   3.987 9.43e-05 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 4.209 on 196 degrees of freedom
+Multiple R-squared:  0.7382,	Adjusted R-squared:  0.7342 
+F-statistic: 184.2 on 3 and 196 DF,  p-value: < 2.2e-16
+

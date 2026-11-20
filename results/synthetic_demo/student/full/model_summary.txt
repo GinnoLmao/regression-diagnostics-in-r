@@ -1,0 +1,23 @@
+
+Call:
+lm(formula = formula, data = prepared$data, na.action = na.fail)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-10.4851  -2.3978   0.1317   2.3142  11.3938 
+
+Coefficients:
+                           Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                20.26015    2.14121   9.462  < 2e-16 ***
+Study_Hours                 2.07099    0.11494  18.018  < 2e-16 ***
+Attendance_Rate             0.29339    0.02150  13.644  < 2e-16 ***
+Extracurricular_Activities -0.44122    0.60443  -0.730 0.466285    
+Learning_Resources          0.07831    0.27424   0.286 0.775535    
+Teacher_Support             1.02871    0.25945   3.965 0.000103 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 4.225 on 194 degrees of freedom
+Multiple R-squared:  0.739,	Adjusted R-squared:  0.7323 
+F-statistic: 109.9 on 5 and 194 DF,  p-value: < 2.2e-16
+

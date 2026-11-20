@@ -1,0 +1,13 @@
+{
+  "source_files": {
+    "student": {
+      "sha256": "4af54868ed8e73e4ca0ae295aff64ed634bfcdf0d4dd45d7c2ac4dcbca31d860",
+      "raw_data_copied": false
+    },
+    "employee": {
+      "sha256": "d78fef1c5d786285d3bd9b7b5afffabddb38b57bfee054aa822f5278694a4e9e",
+      "raw_data_copied": false
+    }
+  },
+  "note": "Formulas and diagnostics refactored from supplied coursework scripts. No original CSV rows or claimed original numerical results are included."
+}

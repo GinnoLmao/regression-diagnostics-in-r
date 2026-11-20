@@ -1,0 +1,11 @@
+Study: employee
+Evidence label: SYNTHETIC SOFTWARE DEMONSTRATION; not original research findings
+Input rows: 240
+Complete rows: 240
+Dropped missing rows: 0
+Meaningful order declared: FALSE
+Full formula: Emp_Satisfac ~ Sex + Age + Length.of.Service + Skill + Educational.Attainment + 
+Full formula:     Transfo_Lead + Orga_Climate
+Selected formula: Emp_Satisfac ~ Transfo_Lead + Orga_Climate
+Selection and inference use the same data; post-selection p-values/CIs are exploratory.
+No causal or held-out predictive performance claim is made.
